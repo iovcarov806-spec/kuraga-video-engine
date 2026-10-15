@@ -1,0 +1,31 @@
+# Episode using only generated characters — renders without private mascot art.
+type: episode
+title: "КУРАГА спасает студента"
+subtitles: both
+music:
+  synth: phonk
+  volume: 0.10
+scenes:
+  - bg: "character:student"
+    ken_burns: zoom_in
+    sfx: glitch
+    lines:
+      - speaker: student
+        text: "Сдача курсовой через шесть часов, а я даже тему не понял."
+  - bg: "character:kuraga"
+    ken_burns: pan_up
+    transition: glitch
+    reaction: "character:student"
+    lines:
+      - speaker: kuraga
+        text: "Спокойно, братишка. Тема, план, список литературы по ГОСТу. Погнали."
+        sfx: thud
+  - bg: "character:duo"
+    ken_burns: zoom_out
+    transition: fade
+    lines:
+      - speaker: student
+        text: "Готово? Уже? КУРАГА, ты легенда!"
+        sfx: bass_drop
+end_card_text: "@KuragaHelperBot"
+end_card_seconds: 1.4

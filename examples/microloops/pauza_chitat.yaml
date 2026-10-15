@@ -1,0 +1,30 @@
+type: microloop
+title: "Пауза чтоб прочитать"
+frame_seconds: 0.5
+target_seconds: 9
+shuffle_seed: 7
+overlay:
+  text: "ПАУЗА ЧТОБ ПРОЧИТАТЬ"
+  position: top
+  font_size: 72
+  color: "#ffffff"
+  bg_color: "#c00000"
+watermark: "@KuragaHelperBot"
+frames:
+  - text: "ГОСТ 7.32: поля — левое 3 см, правое 1 см"
+    bg: "#141018"
+    font_size: 70
+  - image: "03_library_sourcing"
+  - text: "список литературы — по ГОСТ Р 7.0.100"
+    bg: "#101418"
+    font_size: 64
+  - image: "14_error_iv_drip"
+  - text: "титульник: без точки после «года»"
+    bg: "#181014"
+    font_size: 66
+  - image: "05_work_ready_positive"
+  - text: "@KuragaHelperBot делает это за тебя"
+    bg: "#101810"
+    font_size: 62
+    color: "#ffd23f"
+sfx: tick

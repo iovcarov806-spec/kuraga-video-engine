@@ -1,0 +1,65 @@
+{
+  "type": "episode",
+  "title": "Сессия за 3 часа",
+  "subtitles": "both",
+  "music": {"synth": "phonk", "volume": 0.10},
+  "scenes": [
+    {
+      "bg": "06_armchair_noodles",
+      "ken_burns": "zoom_in",
+      "transition": "cut",
+      "sfx": "whoosh",
+      "lines": [
+        {
+          "speaker": "student",
+          "text": "Так. До сдачи курсовой три часа. Я ничего не сделал. Спокойно."
+        },
+        {
+          "speaker": "student",
+          "text": "Спокойно говорю! Это просто паника, она пройдёт.",
+          "sfx": "thud"
+        }
+      ]
+    },
+    {
+      "bg": "02_office_desk",
+      "ken_burns": "pan_right",
+      "transition": "glitch",
+      "reaction": "04_code_generation",
+      "lines": [
+        {
+          "speaker": "professor",
+          "text": "Три часа? Отлично. Успеешь узнать, что такое ГОСТ 7.32. И 7.0.100. И отчисление."
+        },
+        {
+          "speaker": "student",
+          "text": "А если КУРАГЕ скинуть тему прямо сейчас?!"
+        }
+      ]
+    },
+    {
+      "bg": "04_code_generation",
+      "ken_burns": "zoom_in",
+      "transition": "glitch",
+      "reaction": "05_work_ready_positive",
+      "sfx": "bass_drop",
+      "lines": [
+        {
+          "speaker": "kuraga",
+          "text": "Спокуха. Тему кинь, план за минуту, док по ГОСТу за десять. Работяга выручает."
+        },
+        {
+          "speaker": "student",
+          "text": "Он реально сделал титульник правильно. Я в шоке.",
+          "sfx": "thud"
+        },
+        {
+          "speaker": "kuraga",
+          "text": "Пиши @KuragaHelperBot. Сессия сама себя не сдаст."
+        }
+      ]
+    }
+  ],
+  "end_card_text": "@KuragaHelperBot — доки по ГОСТу",
+  "end_card_seconds": 1.5
+}

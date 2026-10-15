@@ -1,0 +1,36 @@
+# Sample microloop: КУРАГА × Студент. Works with zero private assets —
+# `character:*` frames are drawn by the engine, mascot stems fall back to
+# generated КУРАГА scenes when assets/mascot/ is empty.
+type: microloop
+title: "КУРАГА и Студент"
+frame_seconds: 0.6
+target_seconds: 10
+overlay:
+  text: "ПАУЗА ЧТОБ ПРОЧИТАТЬ"
+  position: top
+  font_size: 64
+  color: "#ffffff"
+  bg_color: "#c00000"
+watermark: "@KuragaHelperBot"
+frames:
+  - image: "character:student"
+  - text: "Студент: курсач завтра, а у меня 0 страниц"
+    bg: "#0a1834"
+    font_size: 62
+  - image: "character:kuraga"
+  - text: "КУРАГА: расслабься, ГОСТ 7.32 я знаю наизусть"
+    bg: "#2c1608"
+    font_size: 62
+    color: "#ffd23f"
+  - image: "character:duo"
+  - card: true
+    number: 7
+    text: "Поля страницы по ГОСТ 7.32?"
+  - text: "@KuragaHelperBot — курсач за вечер"
+    bg: "#101810"
+    font_size: 60
+    color: "#ffd23f"
+sfx: tick
+music:
+  synth: phonk
+  volume: 0.08

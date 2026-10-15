@@ -1,0 +1,37 @@
+type: episode
+title: "Токены кончились в 3 ночи"
+subtitles: both
+music:
+  synth: phonk
+  volume: 0.10
+scenes:
+  - bg: "09_tokens_depleted"
+    ken_burns: zoom_out
+    sfx: glitch
+    lines:
+      - speaker: student
+        text: "КУРАГА! Я на середине диплома, а токены кончились! Это конец."
+      - speaker: kuraga
+        text: "Расслабься. Это не конец, это пейволл."
+  - bg: "18_paywall_90s_mugging"
+    ken_burns: pan_left
+    transition: glitch
+    reaction: "13_payment_terminal"
+    lines:
+      - speaker: professor
+        text: "Кстати. Ваша глава два — это пересказ википедии с ошибками. Переделать."
+        sfx: thud
+      - speaker: student
+        text: "Ладно, беру пакет токенов. Только бы дотянуть до защиты."
+  - bg: "10_bbq_celebration"
+    ken_burns: zoom_in
+    transition: fade
+    reaction: "17_vip_club"
+    lines:
+      - speaker: kuraga
+        text: "Диплом готов, список литературы по ГОСТу, титульник без косяков. Держи пять."
+      - speaker: student
+        text: "Защитился на четыре. КУРАГА — легенда подъезда."
+        sfx: bass_drop
+end_card_text: "@KuragaHelperBot"
+end_card_seconds: 1.4

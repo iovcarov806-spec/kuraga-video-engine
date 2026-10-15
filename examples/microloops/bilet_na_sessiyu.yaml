@@ -1,0 +1,18 @@
+type: microloop
+title: "Скриншотни свой билет"
+frame_seconds: 0.3
+target_seconds: 8
+shuffle_seed: 42
+boomerang: false
+overlay:
+  text: "СКРИНШОТНИ СВОЙ БИЛЕТ НА СЕССИЮ"
+  position: top
+  font_size: 62
+  color: "#ffd23f"
+watermark: "@KuragaHelperBot"
+card_prefix: "Билет на сессию"
+cards_from: "examples/microloops/questions.txt"
+sfx: tick
+music:
+  synth: phonk
+  volume: 0.08

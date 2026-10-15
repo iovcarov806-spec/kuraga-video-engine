@@ -1,0 +1,9 @@
+# Kuraga Video Engine runtime deps.
+#   python -m venv .venv && .venv/bin/pip install -r requirements.txt
+moviepy>=2.0,<3
+edge-tts>=7.0
+PyYAML>=6.0
+Pillow>=10.0
+numpy>=1.26
+pydantic>=2.6
+# ffmpeg: system package preferred; imageio-ffmpeg (pulled by moviepy) is the fallback.
